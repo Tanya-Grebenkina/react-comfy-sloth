@@ -10,11 +10,6 @@ import { UserProvider } from './context/user_context';
 import { Auth0Provider } from '@auth0/auth0-react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
-// dev-jf7lmx3satzfot6d.eu.auth0.com
-
-// NV4koHyBySzTA8w66RXXU9SdfIgdHly1
-
 root.render(
   <Auth0Provider
     domain={process.env.REACT_APP_AUTH_DOMAIN}
@@ -22,7 +17,6 @@ root.render(
     authorizationParams={{
       redirect_uri: window.location.origin,
     }}
-    // redirectUri={window.location.origin}
     cacheLocation='localstorage'>
     <UserProvider>
       <ProductsProvider>
