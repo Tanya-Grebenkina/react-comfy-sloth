@@ -3,10 +3,11 @@
 ## Description
 This is an online store where you can choose and order the right product for your home from a wide range of categories.
 
-## You can see demo following the link
-[DEMO](https://react-comffy-store.netlify.app/)
+### You can see demo following the link
+# [DEMO](https://react-comffy-store.netlify.app/)
 
-## Functionalit
+
+## Functionality
 - available on mobile devices,
 - sorting,
 - filtering,
